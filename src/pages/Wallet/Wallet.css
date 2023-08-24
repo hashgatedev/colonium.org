@@ -1,0 +1,198 @@
+.wallet1{
+    padding-top: 5px;
+}
+.title1 h5{
+    font-size: 25px;
+}
+.title1 button{
+    margin-top: 20px;
+    height: 45px;
+    font-size: 25px;
+    border-width: 3px;
+    padding: 23px 30px 50px 30px;
+    margin-right: 10px;
+    border-radius: 50px;
+    color: #bbb7b7 ;
+    outline: medium none;
+    text-decoration: none;
+    box-shadow: 0px 6px 22px rgba(6, 34, 51, 0.22);
+    background-clip: padding-box;
+}
+.btn22{
+    color: #fff;
+    background-color: red;
+}
+.title1 button:hover{
+   
+    color: rgb(255, 255, 255);
+}
+#walleth2{
+    padding-top: 80px;  
+}
+.walleth3{
+    margin-top: 50px;
+    justify-content: start;
+    text-align: start;
+    font-size: 25px;
+    font-family: Helvetica Neue;
+    color: #ffffff;
+    list-style:outside;
+    background-color: #95404000;
+}
+.walleth3 button{
+    margin-left: 15px;
+    background-color: #95404000;
+    border-width: 3px;
+     font-size: 20px;
+     width: 190px;
+     color: #bbb7b7 ;
+    border-radius: 25px;
+    height: 50px;
+    
+    
+}
+.walleth3 button:hover{
+    background-color: rgb(66, 68, 71);
+    color: rgb(255, 255, 255);
+}
+.walletbtn1:hover{
+    background-color: rgb(66, 68, 71);
+    color: rgb(255, 255, 255);
+}
+.walletbtn1 a:hover{
+    color: #ffffff;
+}
+#wallet4{
+    margin-top: 20px;
+}
+.walletbtn1 a{
+    color: #bbb7b7 ;
+}
+
+
+.warning{
+    justify-content: start;
+    text-align: start;
+    padding-top: 50px;
+    list-style: none;
+}
+.walleth3{
+    background-color: transparent;
+}
+.dwnld{
+    color: white!important;
+}
+
+.ytv-container{
+    margin-top: 50px;
+    transition: transform 2s;
+    height: 360px;
+    width: 640px;
+    cursor: pointer;
+}
+
+.ytv-container iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.ytv-container:hover {
+    transform: scale(1.1);
+}
+
+.bsc-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:767px) {
+    .ytv-container {
+        height: 260px;
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width:468px) {
+    .ytv-container {
+        height: 230px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .title1 h5 {
+        font-size: 12px;
+        margin-top: -85px;
+    }
+    .title1 button {
+        font-size: 12.5px;
+        padding: 0 5px 0 5px;
+    }
+    .mybuttonicon{
+        width: 65px ;
+    }
+    #walleth2 {
+        font-size: 22px;
+        padding-top: 34px;
+    }
+    .walleth3 li{
+        font-size: 18px;
+    }
+    .walleth3 button{
+        margin-left: 9px;
+        
+    }
+    .walleth3{
+        margin-top: 0;
+    }
+    .walleth3{
+        font-size: 10px;
+    }
+    .butt{
+        width: 50px;
+    }
+    .dwnld{
+        font-size: 16px!important;
+    }
+}
+#btn45{
+    background-color: #020202;
+    padding: 10px 15px 10px 15px;
+    width: auto;
+    color: #6d6868;
+}
+#btn46{
+    background-color: #020202;
+    padding: 10px 15px 10px 15px;
+    width: auto;
+    color: #6d6868;
+}
+#btn47{
+    background-color: #020202;
+    padding: 10px 15px 10px 15px;
+    width: auto;
+    color: #6d6868;
+}
+
+.mybutton{
+    margin-top: 22px;
+    height: 58px;
+    user-select: none;
+    border-color: #2add8461 !important;
+    text-transform: none !important;
+}
+
+.mybutton:hover {
+    border-color: #2add84 !important;
+}
+
+@media only screen and (min-width:450px){
+ 
+    .mybutton{
+        margin-top: 22px;
+        margin-right: 20px;
+        width: 550px;
+        border-color: #2ADD84;
+    }
+}

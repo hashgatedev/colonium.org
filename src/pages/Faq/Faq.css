@@ -1,0 +1,15 @@
+.header{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.header1{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+p{
+    color: #b8b8b8;
+    text-align: justify;
+
+}

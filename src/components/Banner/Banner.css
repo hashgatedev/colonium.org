@@ -1,0 +1,60 @@
+@media only screen and (max-width:768px){
+
+    h4 #title2{
+         font-size: 13px;
+     }
+ }
+ #ball5 {
+     left: 40%;
+    top: 100px;
+     height: 100px;
+     width: 70px;
+     height: 70px;
+     margin-left: 50%;
+     /* a black shadow from left and white from right */
+    
+     background-size: 190px;
+    
+     border-radius: 50%;
+    position: absolute;
+    
+     animation-name: move,scale,rotate;
+     animation-duration: 20s,20s,20s;
+     animation-iteration-count: infinite,infinite,infinite;
+     animation-timing-function: ease-in-out,linear,linear;
+ }
+ @keyframes move {
+     0%   { left: 200px;  }  
+     70%  { left: -200px; }
+     100% { left: 200px;  }
+   }
+   @keyframes scale {
+     0%  { transform: scale(1);   }
+     32% { transform: scale(0.4); animation-timing-function:  ease-in; }
+     70% { transform: scale(1); animation-timing-function:  ease-in;  }
+     75% { transform: scale(1.2);  animation-timing-function:  ease-in-out; }
+     86% { transform: scale(2);  }  
+     98% { transform: scale(1.2); }
+     100%{ transform: scale(1); }
+   }
+   @keyframes rotate {
+     0% { background-position: 0px; }
+     100% { background-position: 190px; }
+   }
+   #firepng{
+     
+     
+       animation: rotation  2s infinite linear;
+       }
+       @keyframes rotation {
+         from {
+     
+         }
+         to {
+           transform: rotateY translateY(3.142rad);
+         }
+       }
+ 
+  #coloniumetitle{
+   color: #f8f8f8;
+  }     

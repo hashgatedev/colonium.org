@@ -1,0 +1,126 @@
+
+.t1angel{
+    
+    color: #000000;
+    
+}
+.titlem2{
+    color: #000000;
+    justify-content: center;
+    
+}
+.img{
+    width: 250px;
+ 
+}
+.angelbox{
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 150px;
+    display: flex;
+}
+.texts{
+    width:850px;
+   margin-left: 50px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-align: justify;
+}
+.image{
+    margin: 55px 0 0 50px;
+    padding: 0 50px 0 0 ;
+    
+}
+.boximgli{
+    list-style: none;
+}
+.angelbtn{
+    width: 200px;
+ margin: 30px 0 0 35px;
+ border-radius: 50px;
+
+}
+@media only screen and (max-width:1199px){
+    .image{
+        margin: 55px 0 0 50px;
+        padding:8% 50px 0 0 ;
+        
+    }
+
+}
+@media only screen and (max-width:1199px){
+    .image{
+        margin: 55px 0 0 50px;
+        padding:8% 50px 0 0 ;
+        
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .angelbox{
+        margin-top: 100px;
+        width: 100%;
+       display:block;
+       color: #000000;
+    }
+    #angelp p{
+        text-align: justify;
+        max-width:450px;
+        position: relative;
+        color: #000000;
+        margin-top: -20px;
+    }
+    .texts{
+        width:100%;
+        text-align: justify;
+       margin-left: 2px;
+       color: #000000;
+       z-index: 2;
+       margin-top: -20px;
+    }
+    .texts p {
+        color: #000000;
+    }
+    .img{
+        
+        margin-top: -600px;
+        opacity: .5;
+        z-index: 0;
+        width: 150%;
+ 
+        
+    }
+    .angelbtn{
+        margin-top: -110px;
+        justify-content: center;
+        display: flex;
+        
+    }
+    .titlem2 {
+        color: #000000;
+        
+    }
+}
+@media only screen and (max-width:480px){
+    .angelbtn{
+        margin-top: -140px;
+        padding-bottom: -50px;
+        justify-content: center;
+        display: flex;
+        left: -6%;
+    }
+       
+    .img{
+        
+        margin-top: -800px;
+        opacity: .35;
+        z-index: 0;
+        width: 150%;
+ 
+        
+    }
+    .angelbox{
+        padding-top: 50px;
+    }
+}

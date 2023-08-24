@@ -1,0 +1,27 @@
+.wtb_container{
+    background-image: url('../../../public/img/images/coloniume_modem.png');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.btn_container{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    /* top: 50%; */
+    margin-top: 50px;
+    /* right: 0px;
+    width: 100%; */
+}
+
+.gts_link{
+
+}
+
+.gts_link img{
+    max-width: 200px;
+}

@@ -1,0 +1,10 @@
+
+@media only screen and (max-width:480px){
+    #row2{
+        column-count: 2;
+    
+    }
+    #partner1{
+        margin-top:85px;
+    }
+}

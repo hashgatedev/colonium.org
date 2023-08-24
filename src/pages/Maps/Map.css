@@ -1,0 +1,54 @@
+.mapbox{
+   margin-top: 100px;
+   width: 100%;
+   padding: 50px;
+   height: auto;
+   border-radius: 25px;
+   border-width: 10px;
+   border-color: aliceblue;
+   background-color: #262626;
+   color: #fff;
+}
+.mapboxins p{
+    color: #c5c5c5;
+    padding-top: 20px;
+}
+.coveredmap{
+    margin-top: 50px;
+}
+.coveredmap h4 p{
+    display: flex;
+    justify-content: left;
+}
+.hotpoint{
+    margin-top: 50px;
+    background-color: #262626;
+    color: #fff;
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+.hotbox1{
+    padding: 55px;
+}
+.hotbox1 p{
+    padding: 10px 50px 50px 50px;
+    color: #fff;
+}
+.googlemap{
+   
+        -webkit-filter: grayscale(50%);
+           -moz-filter: grayscale(50%);
+            -ms-filter: grayscale(50%);
+             -o-filter: grayscale(50%);
+                filter: grayscale(50%);
+
+}
+.googlemap2{
+     border-radius: 25px;
+    -webkit-filter: grayscale(50%);
+       -moz-filter: grayscale(50%);
+        -ms-filter: grayscale(50%);
+         -o-filter: grayscale(50%);
+            filter: grayscale(50%);
+
+}

@@ -1,0 +1,58 @@
+.termsh1{
+    font-size: 45px;
+    color: #ffff;
+    font-weight: bold;
+    margin-top: -50px;
+    padding-bottom: 100px;
+}
+.intro{
+    font-family: Helvetica Neue;
+    font-size: 35px;
+}
+.paragraph1 {
+    text-align: justify;
+    padding-top: 30px;
+    font-family: Helvetica Neue;
+   
+}
+.paragraph1 p{
+    text-align: justify;
+    color: #e4dddd;
+    font-size: 20px;
+    font-family: Helvetica Neue;
+}
+.service{
+    padding-top: 30px;
+    font-family: Helvetica Neue;
+    font-size: 35px;
+}
+.paragraph2{
+    padding-top: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Helvetica Neue;
+}
+#coin56{
+    padding-top: 15px;
+}
+#coinp{
+    margin-top: -20px;
+}
+#head{
+    padding-top: 20px;
+}
+#headp{
+    margin-top: -20px;
+}
+#headp p {
+    color: #ffff;
+}
+.list{
+    font-size: 20px;
+    color: #fff;
+}
+.dlink{
+    color: #ffff;
+    
+}

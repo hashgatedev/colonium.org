@@ -1,0 +1,15 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    max-height: 64px;
+}
+
+.logo .logoimg{
+    max-height: 54px;
+    width: 140px;
+}
+
+.logo .logosub{
+    font-size: 10px;
+    text-align: center;
+}

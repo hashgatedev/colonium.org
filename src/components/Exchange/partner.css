@@ -1,0 +1,13 @@
+
+@media only screen and (max-width:480px){
+    #row2{
+        column-count: 2;
+    
+    }
+    .partner-area{
+        margin-top: -85px;
+    }
+}
+#exchange{
+    margin-top: 30px;
+}

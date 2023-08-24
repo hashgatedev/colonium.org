@@ -1,0 +1,5 @@
+@media only screen and (min-width:991px){
+    .calculator_graph{
+        display: flex;
+    }
+}

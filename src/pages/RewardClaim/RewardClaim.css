@@ -1,0 +1,80 @@
+.wallet1 {
+    padding-top: 5px;
+}
+
+.title1 h5 {
+    font-size: 25px;
+}
+
+.title1 button:hover {
+
+    color: rgb(255, 255, 255);
+}
+
+.wa-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+}
+
+.wa-container .winput{
+    width: 100%;
+    max-width: 450px;
+    flex: 1;
+}
+
+.walletaddress {
+    user-select: none;
+    border-color: #2add8461 !important;
+    text-transform: none !important;
+    width: 100%;
+}
+
+.btn-claim {
+    width: 150px;
+}
+
+.walletaddress:hover {
+    border-color: #2add84 !important;
+}
+
+.error-box{
+    margin: 20px;
+    background-color: #ff000021;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.success-box{
+    margin: 20px;
+    background-color: #00ff4421;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.success{
+    color: #2add7e;
+}
+
+.error {
+    color: #dd2a3f;
+}
+
+@media only screen and (max-width:480px) {
+    .wa-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wa-container .winput {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}

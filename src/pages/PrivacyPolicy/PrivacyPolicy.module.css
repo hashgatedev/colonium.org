@@ -1,0 +1,24 @@
+.termsh1{
+    font-size: 45px;
+    color: #ffff;
+    font-weight: bold;
+    margin-top: -50px;
+    padding-bottom: 100px;
+}
+
+.section{
+    padding-top: 30px;
+}
+
+.paragraph1 {
+    text-align: justify;
+    padding-top: 10px;
+    font-family: Helvetica Neue;
+   
+}
+.paragraph1 p{
+    text-align: justify;
+    color: #e4dddd;
+    font-size: 20px;
+    font-family: Helvetica Neue;
+}

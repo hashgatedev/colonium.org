@@ -1,0 +1,43 @@
+@media only screen and (max-width:991px){
+    
+    #roadmob{
+      overflow:scroll;
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+     overflow-y: hidden;
+
+    }
+    .roadmap {
+        --bs-gutter-x: 0px;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left:0;
+      }
+}
+#roadmob{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+ overflow-y: auto;
+ min-height: 635px;
+ user-select: none;
+ 
+ cursor: pointer !important;
+}
+@media only screen and (min-width:900px){
+  #roadmaptext{
+    text-align: ;
+  }
+  #roadmob{
+    overflow:scroll;
+    scroll-behavior: smooth;
+   min-height: 655px;
+
+  
+  }
+}

@@ -1,0 +1,55 @@
+# For more information: https://laravel.com/docs/sail
+version: '3'
+services:
+    web:
+        build: .
+        image: coloniume/website
+        restart: always
+        ports:
+            - '${WEB_PORT:-3001}:80'
+        depends_on:
+            - app
+
+    app:
+        build: ./api
+        image: coloniume/website_api
+        restart: always
+        ports:
+            - '${API_PORT:-3000}:3000'
+        depends_on:
+            - mysql
+        volumes:
+            - './.env:/usr/src/app/.env'
+
+    mysql:
+        image: 'mysql:8.0'
+        restart: always
+        hostname: mysql
+        ports:
+            - '${DB_PORT:-3306}:3306'
+        environment:
+            MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
+            MYSQL_DATABASE: '${DB_DATABASE}'
+            MYSQL_USER: '${DB_USERNAME}'
+            MYSQL_PASSWORD: '${DB_PASSWORD}'
+            MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+            MYSQL_ROOT_HOST: '%'
+        volumes:
+            - '/home/reward_db:/var/lib/mysql'
+        networks:
+            - clreward
+
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        links:
+            - mysql
+        environment:
+            PMA_HOST: mysql
+            PMA_PORT: '${DB_PORT:-3306}:3306'
+            PMA_ARBITRARY: 1
+        restart: always
+        ports:
+            - 8081:80
+
+networks:
+    clreward:

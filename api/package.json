@@ -1,0 +1,42 @@
+{
+  "name": "node-express-mysql-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for Node.js web applications with express and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --trace-warnings index.js"
+  },
+  "author": "Mangesh Ghadigaonkar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.6.7",
+    "axios": "^1.2.2",
+    "bcryptjs": "^2.4.3",
+    "bignumber.js": "^9.1.1",
+    "body-parser": "^1.19.0",
+    "connect-session-sequelize": "^7.0.1",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "js-sha3": "^0.8.0",
+    "jsrsasign": "^10.5.25",
+    "mysql2": "^2.1.0",
+    "nano": "^10.0.0",
+    "nconf": "^0.12.0",
+    "promise-settle": "^0.3.0",
+    "sequelize": "^6.3.4",
+    "sjcl": "^1.0.8",
+    "validator": "^13.1.1",
+    "winston": "^3.8.1",
+    "yn": "^4.0.0"
+  }
+}

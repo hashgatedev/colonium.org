@@ -1,0 +1,25 @@
+.contact-form-wrap .error-box {
+    margin: 20px auto ;
+    background-color: #ff000021;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contact-form-wrap .success-box {
+    margin: auto;
+    background-color: #00ff4421;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contact-form-wrap .success {
+    color: #2add7e;
+}
+
+.contact-form-wrap .error {
+    color: #dd2a3f;
+}

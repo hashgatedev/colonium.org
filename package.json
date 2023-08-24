@@ -1,0 +1,59 @@
+{
+  "name": "coloniume",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@canvasjs/charts": "^3.7.15",
+    "@canvasjs/react-charts": "^1.0.0",
+    "@coinpaprika/api-nodejs-client": "^2.0.0",
+    "@types/chart.js": "^2.9.37",
+    "axios": "^1.4.0",
+    "babel-plugin-macros": "^3.1.0",
+    "bootstrap": "^5.2.3",
+    "canvasjs": "^1.8.3",
+    "chart.js": "^4.3.2",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "classnames": "^2.3.2",
+    "google-maps-react": "^2.0.6",
+    "jquery": "^3.6.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-chartjs-2": "^5.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18.2.0",
+    "react-linkify": "^1.0.0-alpha",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "react-youtube": "^10.1.0",
+    "slick-carousel": "^1.8.1",
+    "source-map-loader": "^4.0.1",
+    "web-vitals": "^2.1.4",
+    "wow.js": "^1.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

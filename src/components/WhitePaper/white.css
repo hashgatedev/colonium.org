@@ -1,0 +1,17 @@
+@media only screen and (max-width:480px){
+    #WhitePaper{
+        margin-top: -80px;
+    }
+    #t4{
+        text-align: center;
+    }
+}
+#btn{
+    border-color: #2add8480;
+    border-width: 2px;
+}
+#btn:hover{
+    border-color: #2add84;
+    border-width: 2px;
+    color: #2add8480 ;
+}
